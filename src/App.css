@@ -25,5 +25,19 @@ a:hover {
 ul{
   display: flex;
   justify-content: space-around;
-  background-color: mediumpurple;
+  
+}
+.api-con{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.img-con{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App{
+  text-align: center;
+  justify-content: center;
+  background-color: bisque;
 }
